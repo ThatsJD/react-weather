@@ -5,7 +5,7 @@ function App() {
 
   const [query,setQuery]= useState('');
   const [weather,setWeather]= useState({});
-  const api_key="1b3937bbf9df0eeeb58c6c502d4d31c7";
+  const api_key="app_key";
   const api_base="https://api.openweathermap.org/data/2.5/weather";
   const pritify_date=(d)=>{
     let result= new Intl.DateTimeFormat("en-GB",{
